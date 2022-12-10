@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Qual o Pokemon?</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="congratulation">CONGRATULATION!!!</h1>
+        <h1 class="replay">TRY ONE MORE TIME!</h1>
+        <div class="question-container">
+            <div class="img-container">
+            </div>
+            <div class="input-container">
+                <h2 class="question">What is this pokemon?</h2>
+                <input type="text" id="inputName">
+            </div>
+        </div>
+        <div class="btn-container">
+            <button onclick="resetPage()" class="btn-reload">RELOAD</button>
+            <button onclick="result()" class="btn-result">OK</button>
+        </div>
+        <div class="li-container">
+            <ul id="listPokemon">
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

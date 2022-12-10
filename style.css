@@ -1,0 +1,138 @@
+body {
+    background-color: #57559C;
+}
+
+.container {
+    background-color: #DCF4DC;
+    border-style: solid;
+    border-color: #edfded;
+    border-width: 5px;
+    border-radius: 40px;
+    margin-top: 75px;
+    height: 500px;
+    width: 1000px;
+    margin-left: 16%;
+}
+
+.congratulation {
+    position: absolute;
+    color: #635D5D;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 22.2%;
+    margin-top: 16%;
+    display: none;
+}
+
+.replay {
+    position: absolute;
+    color: #635D5D;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 21.3%;
+    margin-top: 16%;
+    display: none;
+}
+
+.question-container {
+    display: flex;
+    background-color: #FFFAFD;
+    border: 10px solid #C4B8B5;
+    border-radius: 25px;
+    width: 50%;
+    height: 40%;
+    margin-top: 150px;
+    margin-left: 290px;
+}
+
+.img-container {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.imgPokemon {
+    width: 140px;
+}
+
+.input-container {
+    display: flex;
+    margin-top: 18%;
+    margin-left: 6%;
+    flex-direction: column;
+}
+
+.question {
+    position: absolute;
+    margin-top: -2%;
+    color: #635D5D;
+    font-size: 12px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#inputName {
+    background-color: #FFFAFF;
+    color: #635D5D;
+    border: none;
+    border-bottom: 8px dashed #635D5D;
+    height: 30px;
+    width: 235px;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.btn-container {
+    position: absolute;
+    display: grid;
+    background-color: #AB9E9E;
+    margin-left: 55%;
+    height: 200px;
+    width: 95px;
+    border: 10px solid #AB9E9E;
+    border-radius: 25px;
+    margin-top: -14.3%;
+}
+
+.btn-result, .btn-reload {
+    margin-top: 36px;
+    background-color: #CDCB56;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    height: 30px;
+    width: 95px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.btn-result, .btn-reload:hover{
+    cursor: pointer;
+}
+
+.li-container {
+    background-color: #FFFAFD;
+    border: 10px solid #C4B8B5;
+    border-radius: 30px;
+    margin-top: -35%;
+    width: 190px;
+    margin-left: 45px;
+}
+
+#listPokemon {
+    height: 410px;
+    overflow-y: auto;
+}
+
+.arrayLi {
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: #635D5D;
+    font-size: 12px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+@keyframes loop {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+
